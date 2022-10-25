@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["john@insane.se"]
   gem.description   = %q{Ruby Samba Client using the cmdline smbclient}
   gem.summary       = %q{Ruby Samba Client}
-  gem.homepage      = "https://github.com/johnae/sambal"
+  gem.homepage      = "https://github.com/stepan0904/sambal"
 
   gem.files         = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md)
   gem.test_files    = Dir.glob("{spec}/**/*")
