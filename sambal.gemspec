@@ -1,9 +1,13 @@
-require File.expand_path('../lib/sambal/version', __FILE__)
+# coding: utf-8
+require_relative "lib/sambal/version"
 
 Gem::Specification.new do |gem|
-  gem.files         = Dir.glob("{bin,lib}/**/*")
-  gem.test_files    = Dir.glob("{spec}/**/*")
   gem.name          = "sambal"
-  gem.require_paths = ["lib"]
   gem.version       = Sambal::VERSION
+  gem.authors       = ["Stepan"]
+  gem.license       = "MIT"
+  gem.files         = Dir.glob("{bin,lib}/**/*")
+  gem.require_paths = ["lib"]
+  gem.required_ruby_version = ">= 2.6.0"
+  gem.homepage      = "https://github.com/stepan0904/sambal"
 end
